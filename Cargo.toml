@@ -1,0 +1,10 @@
+[package]
+name = "convolution_cffi"
+version = "0.1.0"
+authors = ["James Munns <james.munns@gmail.com>"]
+
+[dependencies]
+convolution = { git = "https://github.com/jamesmunns/conv-rs.git" }
+
+[lib]
+crate-type = ["dylib"]
